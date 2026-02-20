@@ -26,17 +26,17 @@ const Contact = () => {
                   
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">PHONE</h3>
-                    <a href="tel:+1234567890" className="text-xl hover:text-muted-foreground transition-colors duration-300">
-                      +1 (234) 567-8900
+                    <a href="tel:+97141234567" className="text-xl hover:text-muted-foreground transition-colors duration-300">
+                      +971 4 123 4567
                     </a>
                   </div>
                   
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">STUDIO</h3>
                     <address className="text-xl not-italic">
-                      123 Design Avenue
+                      Design District, Building 7
                       <br />
-                      New York, NY 10001
+                      Dubai, UAE
                     </address>
                   </div>
                 </div>

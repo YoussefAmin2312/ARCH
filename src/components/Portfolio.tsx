@@ -7,19 +7,19 @@ const Portfolio = () => {
     {
       image: project1,
       title: "MINIMAL RESIDENCE",
-      location: "NEW YORK, 2024",
+      location: "DUBAI, 2024",
       description: "A contemporary home focusing on light, space, and material honesty"
     },
     {
       image: project2,
       title: "CORPORATE HEADQUARTERS",
-      location: "LONDON, 2023",
+      location: "ABU DHABI, 2023",
       description: "Modern office space emphasizing collaboration and natural elements"
     },
     {
       image: project3,
       title: "CULTURAL CENTER",
-      location: "TOKYO, 2023",
+      location: "SHARJAH, 2023",
       description: "Public architecture that bridges tradition with contemporary design"
     }
   ];
