@@ -3,6 +3,9 @@ import Navigation from "@/components/Navigation";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
+import projectHotel from "@/assets/project-hotel.jpg";
+import projectLoft from "@/assets/project-loft.jpg";
+import projectGallery from "@/assets/project-gallery.jpg";
 
 const Work = () => {
   const [activeCategory, setActiveCategory] = useState("ALL");
@@ -10,7 +13,7 @@ const Work = () => {
     {
       image: project1,
       title: "MINIMAL RESIDENCE",
-      location: "NEW YORK, 2024",
+      location: "DUBAI, 2024",
       category: "RESIDENTIAL",
       description: "A contemporary home focusing on light, space, and material honesty. The design emphasizes clean lines and natural materials.",
       area: "450 SQM",
@@ -19,7 +22,7 @@ const Work = () => {
     {
       image: project2,
       title: "CORPORATE HEADQUARTERS",
-      location: "LONDON, 2023",
+      location: "ABU DHABI, 2023",
       category: "COMMERCIAL",
       description: "Modern office space emphasizing collaboration and natural elements. Features flexible workspaces and sustainable design principles.",
       area: "1200 SQM",
@@ -28,34 +31,34 @@ const Work = () => {
     {
       image: project3,
       title: "CULTURAL CENTER",
-      location: "TOKYO, 2023",
+      location: "SHARJAH, 2023",
       category: "CULTURAL",
       description: "Public architecture that bridges tradition with contemporary design. A space for community gathering and cultural exchange.",
       area: "800 SQM",
       year: "2023"
     },
     {
-      image: project1,
+      image: projectLoft,
       title: "URBAN LOFT",
-      location: "BERLIN, 2024",
+      location: "DUBAI, 2024",
       category: "RESIDENTIAL",
       description: "Industrial heritage meets contemporary living. Raw materials balanced with refined details.",
       area: "180 SQM",
       year: "2024"
     },
     {
-      image: project2,
+      image: projectGallery,
       title: "GALLERY SPACE",
-      location: "PARIS, 2022",
+      location: "ABU DHABI, 2022",
       category: "CULTURAL",
       description: "Minimalist gallery designed to showcase art without distraction. Pure white spaces with carefully controlled lighting.",
       area: "600 SQM",
       year: "2022"
     },
     {
-      image: project3,
+      image: projectHotel,
       title: "BOUTIQUE HOTEL",
-      location: "MILAN, 2023",
+      location: "RAS AL KHAIMAH, 2023",
       category: "HOSPITALITY",
       description: "Luxury hospitality redefined through architectural restraint. Every detail carefully considered for guest experience.",
       area: "2400 SQM",
@@ -82,7 +85,7 @@ const Work = () => {
                 OUR WORK
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl">
-                A curated selection of our architectural projects, each telling a unique story 
+                A curated selection of our architectural projects across the UAE, each telling a unique story 
                 through thoughtful design and meticulous attention to detail.
               </p>
             </div>
